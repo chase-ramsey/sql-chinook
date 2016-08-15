@@ -16,4 +16,3 @@ FROM Invoice i, Customer c, Employee e
 WHERE c.CustomerId = i.CustomerId
 AND c.SupportRepId = e.EmployeeId
 AND e.title LIKE 'Sales%'
-
