@@ -2,6 +2,6 @@
 
 SELECT
   i.*,
-  t.name
+  t.name 'Track'
 FROM InvoiceLine i, Track t
 WHERE i.TrackId = t.TrackId
